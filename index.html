@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wang & Lasa Wedding</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Christina & Carlos – Save Our Date</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.2em;
+      letter-spacing: 0.03em;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 2em;
+      color: #555;
+    }
+
+    .button {
+      background-color: #3E8C84;
+      color: #fff;
+      padding: 0.8em 2em;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #33736b;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1em;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Christina & Carlos' Wedding</h1>
-        <p>Join us on our special day!</p>
-    </header>
-    <main>
-        <section id="details">
-            <h2>Wedding Details</h2>
-            <p><strong>Date:</strong> June 6, 2026</p>
-            <p><strong>Venue:</strong> Mystic, Connecticut</p>
-        </section>
-        <section id="rsvp">
-            <h2>RSVP</h2>
-            <form>
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="guests">Number of Guests:</label>
-                <input type="number" id="guests" name="guests" min="1" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <p>Coming soon!</p>
-        </section>
-    </main>
-    <footer>
-        <p>With love, Christina & Carlos</p>
-    </footer>
+  <h1>Christina & Carlos</h1>
+  <p>Are getting married<br/>June 6, 2026</p>
+  <a href="https://www.zola.com/wedding/wanglasa" class="button">Save Our Date</a>
+
+  <footer>
+    <p>wanglasa.com</p>
+  </footer>
 </body>
 </html>
