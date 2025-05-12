@@ -50,22 +50,20 @@
       background-color: #33736b;
     }
 
-    footer {
-      position: absolute;
-      bottom: 1em;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
+    .responsive-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+        }
   </style>
 </head>
 <body>
-  <img src="/save-our-date-web.png">
-  <h1>Christina & Carlos</h1>
-  <p>Are getting married<br/>June 6, 2026</p>
-  <a href="https://www.zola.com/wedding/wanglasa" class="button">Save Our Date</a>
-
-  <footer>
-    <p>wanglasa.com</p>
-  </footer>
+  <div>
+    <a href="https://www.zola.com/wedding/wanglasa" class="button">Save Our Date</a>   
+    <img 
+        src="/save-our-date-web.png">
+        class="responsive-image">
+  </div>
 </body>
 </html>
